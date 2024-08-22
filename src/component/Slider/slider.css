@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.Sliderinner{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-image: url('../../assets/SliderImg/slider-1.jpg');
+    background-position: center;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    padding: 10px;
+}
+.Sliderinner button{
+    background: none;
+    padding: 20px;
+    height: 100%;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    color: rgba(255, 255, 255, 0.5);
+}
+.Sliderinner button:hover{
+    color: white;
+}
