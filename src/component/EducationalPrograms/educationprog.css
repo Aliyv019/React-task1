@@ -6,17 +6,22 @@
 .tehsilsection{
     display: flex;
     justify-content: center;
-    margin-bottom: 150px;/* Bu temporary birseydir scroll edib rahat baxmaq ucun*/
+    margin-bottom: 10px;
 }
 .tehsilinner{
     width: 50%;
 }
-.tehsilinner p{
+.card_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.card_header p{
     color: #46C0EF;
     font-size: 3.5rem;
     font-weight: bolder;
 }
-.tehsilinner h2{
+.card_header h2{
     font-weight: bold;
     font-size: 1.2em;
 }

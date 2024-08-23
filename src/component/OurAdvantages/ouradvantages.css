@@ -1,0 +1,42 @@
+.advantagesection{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.advantageinner{
+    width: 50%;
+}
+.advantagecard img{
+    height: 304px;
+    width: 45%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.advantagecards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.advantagecard{
+    display: flex;
+    width: 48%;
+    margin-bottom: 80px;
+}
+.advantagecard h3{
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.advantagecard span{
+    font-size: 0.9rem;
+    word-wrap: break-word;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.advantagecardtext{
+    padding: 20px+15px;
+}

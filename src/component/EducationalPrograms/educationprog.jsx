@@ -5,7 +5,7 @@ export default function educationprog() {
   return (
     <div className='tehsilsection'>
         <div className='tehsilinner'>
-            <div style={{"display":'flex','alignItems':'center','marginBottom':'20px'}}>
+            <div className='card_header'>
                 <p>[</p>
                 <h2>Təhsil Proqramları</h2>
                 <p>]</p>

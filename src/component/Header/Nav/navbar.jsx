@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Hralogo from '../../assets/img//logo/hra_main_logo.png'
+import Hralogo from '../../../assets/img//logo/hra_main_logo.png'
 import './navbar.css'
 
 export default function navbar() {
