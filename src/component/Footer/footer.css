@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer_inner{
+    border-top: solid 1px #42A7BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.footer_inner p{
+    font-size: 0.8rem;
+    color: #262d67;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 18px+0;
+}

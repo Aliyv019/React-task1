@@ -5,6 +5,8 @@ import Slider from './component/Slider/slider.jsx'
 import EducationalPrograms from './component/EducationalPrograms/educationprog.jsx'
 import OurAdvantages from './component/OurAdvantages/ouradvantages.jsx'
 import GraduateThoughts from './component/Graduatethoughts/graduatethoughts.jsx'
+import Contact from './component/Contact/contact.jsx'
+import Footer from './component/Footer/footer.jsx'
 
 export default function App() {
   return (
@@ -20,6 +22,8 @@ export default function App() {
     <EducationalPrograms />
     <OurAdvantages />
     <GraduateThoughts />
+    <Contact />
+    <Footer />
     </>
   )
 }
