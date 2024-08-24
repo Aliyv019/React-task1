@@ -1,0 +1,64 @@
+.contact_us{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 70px+0;
+}
+.contact_inner{
+    width: 50%;
+    display: flex;
+}
+.contact_text h2{
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.contact_text p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-right: 30px;
+}
+.contact_text{
+    width: 50%;
+}
+.contact_input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact_input input{
+    border: #42A7BF solid 1px;
+    color: #262d67;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 48%;
+    margin-bottom: 30px;
+}
+select{
+    width: 100%;
+    border: #42A7BF 1px solid;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: .375rem 2.25rem .375rem .75rem;
+    background-position: right .75rem center;
+    margin-bottom: 30px;
+}
+.contact_form button{
+    padding: 10px+20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 400;
+    background: #42A7BF;
+    transition: ease-in-out 0.4s;
+    border: solid 1px #42A7BF;
+}
+.contact_form button:hover{
+    background: white;
+    color: #42A7BF;
+}
