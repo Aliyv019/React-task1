@@ -9,7 +9,7 @@ import image5 from '../../assets/img/OurAdvantagesimg/advantage5.jpg'
 
 export default function ouradvantages() {
   return (
-    <div className='advantagesection'>
+    <section className='advantagesection'>
         <div className='advantageinner'>
             <div className='card_header'>
                 <p>[</p>
@@ -54,6 +54,6 @@ export default function ouradvantages() {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }

@@ -3,7 +3,7 @@ import './educationprog.css'
 
 export default function educationprog() {
   return (
-    <div className='tehsilsection'>
+    <section className='tehsilsection'>
         <div className='tehsilinner'>
             <div className='card_header'>
                 <p>[</p>
@@ -38,6 +38,6 @@ export default function educationprog() {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }

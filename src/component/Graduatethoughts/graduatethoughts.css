@@ -1,0 +1,44 @@
+.thoughts_card img{
+    width: 92px;
+    height: 120px;
+    margin: 1rem 1rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.thoughts_card{
+    display: flex;
+    width: 50%;
+    padding: 12px;
+}
+.graduatethoughts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.graduatethoughts_inner{
+    width: 50%;
+}
+.thoughts_cards{
+    display: flex;
+}
+.card_inner{
+    padding: 16px;
+}
+.card_inner h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.card_inner h4{
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.card_inner h5{
+    word-wrap: break-word;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}

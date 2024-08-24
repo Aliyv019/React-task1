@@ -5,11 +5,11 @@ import {faChevronLeft,faChevronRight} from '@fortawesome/free-solid-svg-icons'
 
 export default function slider() {
   return (
-    <div className='Slider'>
+    <section className='Slider'>
             <div className='Sliderinner'>
             <button><FontAwesomeIcon icon={faChevronLeft}/></button>
             <button><FontAwesomeIcon icon={faChevronRight}/></button>
             </div>
-    </div>
+    </section>
   )
 }

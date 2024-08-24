@@ -7,9 +7,9 @@
     width: 50%;
 }
 .advantagecard img{
-    height: 304px;
+    height: 19rem;
     width: 45%;
-    object-fit: cover;
+    object-fit:cover;
     border-radius: 5px;
 }
 .advantagecards{
